@@ -1,6 +1,8 @@
 CREATE TABLES:
+
 1)discount:
 	create table discount(Product_Category varchar(25) primary key, Discount int, GST int, Delivey_Charge int);
+	
 	select * from discount;
 		+------------------+----------+------+----------------+
 		| Product_Category | Discount | GST  | Delivey_Charge |
